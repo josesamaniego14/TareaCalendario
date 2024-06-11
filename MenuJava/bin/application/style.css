@@ -1,0 +1,26 @@
+.root {
+    -fx-background-color: #f0f0f0; /* Gris claro */
+    -fx-padding: 10;
+}
+
+.label {
+    -fx-text-fill: #333333; /* Gris oscuro */
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50; /* Verde */
+}
+
+.tab-pane .tab-header-area {
+    -fx-background-color: #607D8B; /* Azul grisáceo */
+}
+
+.tab {
+    -fx-text-base-color: #333333; /* Gris oscuro */
+}
+
+.tab:selected {
+    -fx-background-color: #B0BEC5; /* Azul grisáceo más claro */
+}
+
