@@ -22,3 +22,5 @@ Requisitos:
 ![image](https://github.com/josesamaniego14/TareaCalendario/assets/169215284/575490b2-47d3-49f1-8184-15aa88023d17)
 
 ![image](https://github.com/josesamaniego14/TareaCalendario/assets/169215284/4e0a4edb-8690-4843-98a7-8f6076861214)
+
+Este código es una aplicación de JavaFX que crea una interfaz gráfica con dos pestañas, una para seleccionar una fecha y un color, y otra para mostrar los resultados de la selección. En el método start, se crean etiquetas y controles como un DatePicker y un ColorPicker, y se organizan en un VBox. Este VBox se coloca en la primera pestaña de un TabPane. La segunda pestaña contiene un VBox con una etiqueta que mostrará los resultados. Un botón confirma la selección, y al presionarlo, se obtiene la fecha y el color seleccionados, se muestran en la etiqueta de resultados, y se cambia automáticamente a la pestaña de resultados. Finalmente, se crea una escena que incluye el TabPane, se aplica una hoja de estilos CSS, y se muestra en la ventana principal titulada "Tarea FechaColor".
